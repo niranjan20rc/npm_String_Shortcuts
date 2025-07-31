@@ -1,9 +1,3 @@
-// isVowel
-// isConsonante
-// isPalindrome
-// isAnagram
-// isPangram
-
 const isVowel = (ch) => {
     return "AEIOUaeiou".indexOf(ch) !== -1;
 };
@@ -14,7 +8,7 @@ const isConsonant = (ch) => {
 
 const isPalindrome=(str1,str2)=>{
    const rev=str1.split("").reverse().join("");
-    return rev===str2
+   return rev===str2
 }
 
 const isAnagram=(str1,str2)=>{
