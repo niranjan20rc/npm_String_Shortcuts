@@ -1,6 +1,6 @@
 {
   "name": "string-shortcuts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package is about string shortcuts for fast project  development purpose . ",
   "main": "index.js",
   "type":"module",

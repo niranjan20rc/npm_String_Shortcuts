@@ -21,7 +21,7 @@ const isPangram=(str)=>{
     let set = new Set(str.split(""));
     return set.size===26;
 }
-module.exports = {
+export default  {
     isVowel,
     isConsonant,
     isPalindrome,
